@@ -10,10 +10,10 @@
     <div>
         <ul style="margin-top: 30px">
             <li><a  href="https://www.linkedin.com/in/sebastián-mata-195704274/">
-                    <img src="{{asset('assets/images/linkedin.png')}}" width="30px">
+                    <img src="{{asset('assets/images/linkedin.png')}}" width="50px">
                 </a>
                 <a style="padding: 20px"  href="https://www.instagram.com/s14vc/">
-                    <img src="{{asset('assets/images/instagram.png')}}" width="30px">
+                    <img src="{{asset('assets/images/instagram.png')}}" width="50px">
                 </a>
             </li>
 
