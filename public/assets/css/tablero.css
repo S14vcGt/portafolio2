@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image:url('/assets/images/pillar.png');
+}
+
+.tablero{
+    margin-block-start: 100px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(21, 23, 43, 0.70);
+    border-radius: 20px;
+    height: 700px;
+    padding: 20px;
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+.left_board{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.succes_message{
+    padding: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: rgba(0, 225, 255, 0.78);
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+}
+.sidebar{
+    background-color: rgba(21, 23, 43);
+    margin-right: 30px;
+    border-radius: 30px;
+    height: 250px;
+    width: 200px;
+    align-self: center;
+}
+
+.sidemenu{
+    padding: 20px;
+    font-size: 10px;
+}
+
+.listab{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.titlex{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.a_button{
+    margin: 30px;
+    padding: 20px;
+    box-sizing: content-box;
+    background-color: rgba(158, 25, 230, 1);
+    border-radius: 20px;
+    text-decoration: none;
+    color: gold;
+    font-size: 1rem;
+}
+.a_button:hover{
+    color: aqua;
+}
+
+.mostar2 {
+    list-style-type: none;
+    margin: 0;
+    height: 400px;
+    padding: 20px;
+    width: 500px;
+    align-items: left;
+    overflow-y: scroll;
+}
+
+.mostrar {
+    background-color: rgba(158, 25, 230, 0.5);
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-items: center;
+}
+
+.list_bttn{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    top: 0;
+}
+
+.a_tab{
+    text-decoration: none;
+    color: gold;
+    font-size: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+.a_tab:hover{
+    color: blueviolet;
+}
+
